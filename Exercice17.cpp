@@ -45,3 +45,28 @@ Sa racine carrée est : 1.414214e+00
 Donnez un nombre positif : 0
 Fin du programme
 */
+
+/*====================================================
+    Autre version de mon programme (au second essai) :
+======================================================*/
+
+/*
+
+#include <iostream>
+#include <cmath>
+using namespace std ;
+int main(){
+    double nombre;
+    do {
+        cout << "Donnez un nombre positif";
+        cin >> nombre;
+        if (nombre<0){ cout << "svp positif \n";
+            continue;
+        }
+        if (nombre > 0) cout << "Sa racine carrée est : " << sqrt(nombre) << "\n";
+        if (nombre==0) break;
+    } while(nombre != 0);
+    return 0;
+}
+
+*/
